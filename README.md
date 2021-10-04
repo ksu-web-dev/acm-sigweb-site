@@ -2,6 +2,12 @@
 
  Our personal landing page
 
+## Getting Started
+
+Follow these steps to start developing on this repository
+
+1. 
+
 ## Usage
 
 Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
