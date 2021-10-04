@@ -8,11 +8,9 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
 ```shell
 # Clone the repo
-git clone https://github.com/twbs/bootstrap-npm-starter
-cd bootstrap-npm-starter
+git clone https://github.com/ksu-web-dev/acm-sigweb-site.git
+cd acm-sigweb-site
 
-# Install dependencies
-npm i
 
 # Compile Sass
 npm run css-compile
