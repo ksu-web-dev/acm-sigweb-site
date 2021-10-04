@@ -29,6 +29,11 @@ For the most straightforward development, open two Terminal tabs to execute `npm
 
 Open <http://localhost:3000> to see the page in action.
 
+## Using Git
+asjhdioahsdoia
+asdaihsdui
+
+
 ## Scripts
 
 The following npm scripts are available to you in this starter repo. With the exception of `npm start` and `npm test`, the remaining scripts can be run from your command line with `npm run scriptName`.
