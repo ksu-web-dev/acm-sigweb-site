@@ -10,7 +10,7 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 # Clone the repo
 git clone https://github.com/ksu-web-dev/acm-sigweb-site.git
 cd acm-sigweb-site
-
+npm install
 
 # Compile Sass
 npm run css-compile
