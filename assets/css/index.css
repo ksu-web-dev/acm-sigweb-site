@@ -3,20 +3,19 @@
     z-index: 1;
 }
 
-.carousel {
+.col-md-12 {
     position: relative;
     height: 890px;
     background-color: lightgray;
 }
 
-.text {
+.text-black {
     position: absolute;
-    left: 38%;
     top: 47%;
     width: 100%;
 }
 
-.event-calendar {
+.col-md-6 {
     position: relative;
     width: 100%;
 }
