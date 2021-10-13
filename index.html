@@ -29,7 +29,7 @@
         <!--Nav Bar for navigating the page-->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand bg-primary" href="#">K-State ACM SIGWEB</a>
+                <a class="navbar-brand" href="#">K-State ACM SIGWEB</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,10 +45,27 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid">
+    <div class="container title">
         <div class="row">
-            <div class="carousel col-md-12 landing-row">
-                <h1 class="text" class="text-black text-center">K-STATE ACM SIGWEB</h1>
+            <div class="mx-auto col-md-12 text-center landing-col">
+                <h1 class="text-black text-center">K-STATE ACM SIGWEB</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid landing">
+        <div class="overlay">
+            <div id="landing-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/basiclookingstudents.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/randomcode.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/studentsworking.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -105,19 +122,21 @@
     </div>
 
     <footer>
-        <div class="row align-items-center bg-black">
-            <div class="col-md-6 text-start clearfix">
-                <img class="img-fluid" src="assets/images/SigWeb Logo.png" alt="SIGWEB Logo"
-                    style="height: auto; max-height: 5em;">
-            </div>
-            <div class="col-md-6 text-end">
-                <a href="mailto:russfeld@k-state.edu" target="_blank" style="color:black">
-                    <i class="bi-envelope" style="font-size: 4em; color:white"></i>
-                </a>
-                <a href=" https://discord.gg/amqHhjAsfr" target="_blank">
+        <div class="container-fluid">
+            <div class="row align-items-center bg-black">
+                <div class="col-md-6 text-start clearfix">
+                    <img class="img-fluid" src="assets/images/SigWeb Logo.png" alt="SIGWEB Logo"
+                        style="height: auto; max-height: 5em;">
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="mailto:russfeld@k-state.edu" target="_blank" style="color:black">
+                        <i class="bi-envelope" style="font-size: 4em; color:white"></i>
+                    </a>
+                    <a href=" https://discord.gg/amqHhjAsfr" target="_blank">
                         <i class="bi-discord" style="font-size: 4em; color:#738ADB" aria-label="Discord"
                             alt="Discord Logo"></i>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
